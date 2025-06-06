@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;500;600;700;800;900&display=swap');
+
+.menu {
+    display: flex;
+gap: 30px;
+list-style: none;
+text-transform: uppercase;
+
+}
+
+.menu-link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 7px;
+ font-family: "Patua One", serif;
+}
+.menu-link:hover{
+    background-color: rgb(108, 35, 175);
+}
+.header {
+    display:flex;
+}
+.main-title{
+    font-size: 30px;
+   font-family: "WDXL Lubrifont TC", sans-serif;
+}
+.description-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subtitle{
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}
+.container{
+    width: 900px;
+    margin: 30px auto;
+}
+.game-title{
+   font-family: "Heebo", sans-serif;
+}
+.description-game{
+    font-family: "Rubik", sans-serif;
+}
+.footer{
+    text-align: center;
+    font-family: "Exile", system-ui;
+}
+.favorite-list{
+    width: 1000px;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 30px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.favorite-item{
+    border: 1px solid blue;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.order-button{
+    padding: 10px 15px;
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 10px;
+}
+.order-button:hover{
+    background-color: rgb(2, 143, 190);
+    cursor: pointer;
+}
+.card-price{
+    font-weight: 700;
+font-family: "Sarpanch", sans-serif;
+}
+.favorite-games{
+    text-align: center;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}
+.how-to-play{
+    text-align: center;
+}
+.how-to-play-video{
+    border-radius: 30px;
+}
+.event-list{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 30px;
+    width: 1000px;
+}
+.event-item{
+    width: 300px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 20px;
+}
+.event-link{
+    background-color: aquamarine;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.championships{
+    text-align: center;
+}
+.contacts{
+    text-align: center;
+}
+.favorite-title{
+    text-align: center;
+font-family: "Red Rose", serif;
+}
+.event-images{
+    width: 100%;
+    border-radius: 10px;
+}
+.social-list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0 auto;
+    justify-content: center;
+}
+.social-item{
+
+}
+.social-link{
+text-decoration: none;
+color: black;
+background-color: aqua;
+padding: 10px;
+border-radius: 10px;
+}
+.social-icon{
+    width: 20px;
+    vertical-align: middle;
+}
+.iframe-map{
+    margin: 30px auto;
+    display: block;
+}
+.games-img{
+    width: 150px;
+    border-radius: 20px;
+}
+.games-list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.games-item{
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(2, 150, 236);
+}
+.games-item-title{
+font-family: "Oswald", sans-serif;
+}
+.form-title{
+ font-family: "Roboto Slab", serif;
+}
+.form-element{
+font-family: "Pathway Extreme", sans-serif;
+}
+.button-form{
+font-family: "Hanuman", serif;
+padding: 5px 10px;
+background-color: rgb(3, 216, 3);
+border: none;
+border-radius: 10px;
+}
+.button-form:hover{
+    background-color: rgb(2, 172, 2);
+    cursor: pointer;
+}
+.description-font{
+font-family: "Kodchasan", sans-serif;
+}
