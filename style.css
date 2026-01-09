@@ -254,47 +254,131 @@ table td {
 /* ANIMATIONS */
 
 .tracking-in-expand {
-	animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 @keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .scale-up-center:hover {
-	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 
 @keyframes scale-up-center {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.1);
-  }
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
 }
 
 .swirl-in-fwd {
-	animation: swirl-in-fwd 1.2s ease-out both;
+    animation: swirl-in-fwd 1.2s ease-out both;
 }
 
 @keyframes swirl-in-fwd {
-  0% {
-    transform: rotate(-540deg) scale(0);
-    opacity: 0;
-  }
-  100% {
-    transform: rotate(0) scale(1);
-    opacity: 1;
-  }
+    0% {
+        transform: rotate(-540deg) scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotate(0) scale(1);
+        opacity: 1;
+    }
+}
+
+/* MEDIA QUERIES */
+
+
+/* MOBILE */
+@media screen and (max-width: 425px) {
+
+    .container {
+        border: 1px solid green;
+        width: 425px;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        border: 1px solid red;
+        width: 425px;
+    }
+
+    .logo-img {
+        width: 70px;
+    }
+
+    .menu {
+        margin-left: -25px;
+        gap: 4px;
+    }
+
+    .menu-link {
+        padding: 5px;
+    }
+
+    .main-title {
+        display: block;
+        margin: 0 auto;
+    }
+    .description-text {
+        padding: 20px;
+    }
+    .game-title {
+        padding-left: 20px;
+    }
+
+    .chess-mobile {
+        width: 100%;
+    }
+    .description-game {
+        padding-left: 20px;
+    }
+.title-games {
+    text-align: center;
+}
+.log-in-section {
+    padding-left: 20px;
+}
+.section-choose {
+    padding-left: 20px;
+}
+
+.section-qa {
+    padding-left: 20px;
+}
+
+.section-calendar {
+    padding-left: 20px;
+}
+
+.iframe-map {
+    width: 425px;
+}
+
+table {
+    width: 425px;
+}
+
+    /* COMMING SOON... */
 }
