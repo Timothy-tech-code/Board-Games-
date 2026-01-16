@@ -341,9 +341,11 @@ table td {
         display: block;
         margin: 0 auto;
     }
+
     .description-text {
         padding: 20px;
     }
+
     .game-title {
         padding-left: 20px;
     }
@@ -351,34 +353,62 @@ table td {
     .chess-mobile {
         width: 100%;
     }
+
     .description-game {
         padding-left: 20px;
     }
-.title-games {
-    text-align: center;
-}
-.log-in-section {
-    padding-left: 20px;
-}
-.section-choose {
-    padding-left: 20px;
-}
 
-.section-qa {
-    padding-left: 20px;
-}
+    .title-games {
+        text-align: center;
+    }
 
-.section-calendar {
-    padding-left: 20px;
-}
+    .log-in-section {
+        padding-left: 20px;
+    }
 
-.iframe-map {
-    width: 425px;
-}
+    .section-choose {
+        padding-left: 20px;
+    }
 
-table {
-    width: 425px;
-}
+    .section-qa {
+        padding-left: 20px;
+    }
+
+    .section-calendar {
+        padding-left: 20px;
+    }
+
+    .iframe-map {
+        width: 425px;
+    }
+
+    .favorite-list {
+        width: 310px;
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0 auto;
+    }
+
+    table {
+        width: 425px;
+    }
+
+    .how-to-play-video {
+        width: 420px;
+    }
+
+    .event-list {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        gap: 30px;
+        width: 333px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
 
     /* COMMING SOON... */
 }
