@@ -305,7 +305,6 @@ table td {
 
 /* MEDIA QUERIES */
 
-
 /* MOBILE */
 @media screen and (max-width: 425px) {
 
@@ -411,4 +410,16 @@ table td {
     }
 
     /* COMMING SOON... */
+}
+
+/* TABLET */
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+    .menu {
+        margin-left: -60px;
+    }
+
+    .main-page-photo {
+        width: 564px;
+    }
 }
