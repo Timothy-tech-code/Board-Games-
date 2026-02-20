@@ -422,17 +422,41 @@ table td {
     .main-page-photo {
         width: 564px;
     }
+
     .description-text {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 500px;
-}
-.games-list {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    width: 600px;
-}
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 500px;
+    }
 
-}
+    .games-list {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        width: 600px;
+    }
 
+    .container {
+        width: 600px;
+    }
+
+    .favorite-list {
+        width: 600px;
+    }
+
+    .favorite-item {
+        width: 160px;
+    }
+
+    .favorite-img {
+        width: 150px;
+    }
+
+    .how-to-play-video {
+        width: 600px;
+    }
+
+    .event-list {
+        width: 600px;
+    }
+}
