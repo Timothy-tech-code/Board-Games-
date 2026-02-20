@@ -422,4 +422,17 @@ table td {
     .main-page-photo {
         width: 564px;
     }
+    .description-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
 }
+.games-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+}
+
