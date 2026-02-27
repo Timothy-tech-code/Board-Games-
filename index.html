@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Board Games site</title>
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -35,7 +37,7 @@
 
     <main>
         <h1 class="main-title tracking-in-expand">🏓Board Games🎳</h1>
-        <img width="100%" 
+        <img width="100%"
             src="https://s.yimg.com/ny/api/res/1.2/Vjc_eLqUtMEdcueWbNoSag--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://media.zenfs.com/en/gobankingrates_644/4464a542bd2bf3c1300d1ae8de26441b"
             alt="Board Games" class="main-page-photo">
         <div class="container">
@@ -55,7 +57,7 @@
         </div>
 
         <hr>
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="3000">
 
             <h2 align="center" class="subtitle">Popular Board Games</h2>
             <h3 class="game-title">Chess</h3>
@@ -85,7 +87,7 @@
             <h3 class="game-title">Cards</h3>
             <img width="400" class="chess-mobile"
                 src="https://s39613.pcdn.co/wp-content/uploads/2022/01/playing-cards-poker-cards-in-the-hand-of-a-young-man-picture-id1131822944.jpg"
-                alt="Cards">
+                alt="Cards" data-aos="fade-up" data-aos-duration="3000">
             <p class="description-game">Playing cards have a rich history, originating in China during the Tang Dynasty
                 before spreading to Europe
                 and the Middle East. A standard deck contains 52 cards, divided into four suits—hearts, diamonds, clubs,
@@ -103,7 +105,7 @@
 
             <section>
                 <h2 class="title-games">Top popular games</h2>
-                <ul class="games-list">
+                <ul class="games-list" data-aos="fade-up" data-aos-duration="3000">
 
                     <li class="games-item">
                         <h3 class="games-item-title">Catan</h3>
@@ -261,13 +263,13 @@
             </section>
             <section>
                 <h2></h2>
-                <iframe class="iframe-map"
+                <iframe class="iframe-map" data-aos="fade-up" data-aos-duration="3000"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23112.42794544852!2d-79.62099448916013!3d43.6054278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b479462a6d53f%3A0x7b0caed7df81c696!2sGameTime!5e0!3m2!1sen!2sca!4v1744486849333!5m2!1sen!2sca"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
             <section>
-                <div class="container">
+                <div class="container" data-aos="fade-up" data-aos-duration="3000">
                     <table>
                         <caption>
                             Tournaments schedule
@@ -315,6 +317,11 @@
         <p>Timothy made this website</p>
     </footer>
 
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
